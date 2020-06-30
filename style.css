@@ -1,8 +1,16 @@
+/* define colors*/
+:root {
+    --black: #393333ff;
+    --green: #00ac9bff;
+    --orange: #fda10dff;
+    --white: #fff7eeff;
 
+}
     /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
     margin-bottom: 0;
-    border-radius: 0;
+    border-radius: 1%;
+
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -11,17 +19,26 @@
 /* Set gray background color and 100% height */
 .sidenav {
     padding-top: 20px;
-    background-color: blue;
     height: 100%;
 }
-custom-footer{
+footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    height: 20%;
+    background-color: green;
     color: white;
-    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer > .middle-footer{
+    margin-left:auto;
+    margin-right: auto;
+    
+    max-width: 400px;
+    background-color: orange;
+
 }
 
 
@@ -33,3 +50,6 @@ custom-footer{
     }
     .row.content {height:auto;}
 }
+
+
+
